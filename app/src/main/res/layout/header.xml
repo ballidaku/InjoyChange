@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="@color/Yellow"
+              android:layout_height="55dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_header_logo"
+        android:padding="5dp"/>
+
+    <ImageView
+        android:id="@+id/imgv_refresh"
+        android:layout_width="55dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_refresh"
+        android:layout_gravity="right"
+        android:padding="15dp"/>
+
+</FrameLayout>

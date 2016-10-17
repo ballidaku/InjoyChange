@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+              android:layout_width = "match_parent"
+              android:layout_height = "match_parent"
+              android:background = "@color/Yellow"
+              android:orientation = "vertical">
+
+
+    <FrameLayout
+        android:id = "@+id/frame_layout_profile"
+        android:layout_width = "match_parent"
+        android:layout_height = "150dp"
+        android:clickable = "true"
+        android:gravity = "center"
+        android:orientation = "vertical">
+
+
+
+        <ImageView
+            android:id = "@+id/imgv_profile"
+            android:layout_width = "100dp"
+            android:layout_height = "100dp"
+            android:layout_gravity = "center"
+            android:padding = "2dp"
+            android:layout_marginBottom="10dp"
+            android:src = "@drawable/ic_no_user"/>
+
+
+        <TextView
+            android:id = "@+id/txtv_username"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:layout_gravity = "center_horizontal|bottom"
+            android:layout_margin = "5dp"
+            android:text = "Eva Watson"
+            android:textColor = "@color/White"
+            android:textSize = "18dp"
+            android:textStyle = "bold"/>
+
+
+    </FrameLayout>
+
+
+    <ListView
+        android:id = "@+id/listv_drawer"
+        android:layout_width = "match_parent"
+        android:layout_height = "0dp"
+        android:layout_weight = "1"
+        android:listSelector = "@android:color/transparent"/>
+
+
+
+
+</LinearLayout>
